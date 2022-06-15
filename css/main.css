@@ -2880,6 +2880,7 @@ html.no-csstransitions .home-content__main {
 	max-width: 1000px;
 	padding-top: 6rem;
 	padding-bottom: 6rem;
+	margin-top: 5rem;
 	background-color: #ffffffe2;
 	color: #4f4f4f !important;
 	font-family: 'montserrat-light', sans-serif;
