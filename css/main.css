@@ -2608,7 +2608,6 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-clients {
 	position: relative;
-	height: 100vh;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
 	background-color: #e6e6e6;
