@@ -1312,12 +1312,12 @@ input::-moz-focus-inner {
 .section-header.has-bottom-sep::before {
 	display: inline-block;
 	position: absolute;
-	bottom: 0;
+	bottom: 0px;
 	left: 50%;
-	width: 550px;
+	width: 400px;
 	height: 1px;
 	transform: translateX(-50%);
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.25);
 	content: '';
 }
 
@@ -1346,7 +1346,8 @@ input::-moz-focus-inner {
 		padding-bottom: 17.4rem;
 	}
 	.section-header.has-bottom-sep::before {
-		width: 400px;
+		width: 350px;
+		bottom: -5px;
 	}
 }
 
@@ -1356,6 +1357,7 @@ input::-moz-focus-inner {
 	}
 	.section-header.has-bottom-sep::before {
 		width: 250px;
+		bottom: -8px;
 	}
 }
 
@@ -2136,14 +2138,14 @@ html.no-csstransitions .home-content__main {
 	padding-right: 5rem;
 	padding-bottom: 9rem;
 	padding-left: 5rem;
-	background-color: #111111;
+	background-color: #0c0c0c;
 	color: white;
 	text-align: center;
 }
 .about-wrapper {
 	display: flex;
 	align-items: center;
-	background-color: #111111;
+	background-color: #0c0c0c;
 }
 #bgslider {
 	width: 100%;
@@ -2323,6 +2325,12 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 800px) {
+	.s-about {
+		padding-top: 10rem;
+		padding-right: 2rem;
+		padding-bottom: 10rem;
+		padding-left: 2rem;
+	}
 	.about-desc {
 		max-width: 600px;
 		font-size: 2rem;
@@ -2875,8 +2883,8 @@ html.no-csstransitions .home-content__main {
 	max-width: 1000px;
 	padding-top: 6rem;
 	padding-bottom: 6rem;
-	background-color: rgba(0, 0, 0, 0.2);
-	color: rgba(255, 255, 255, 0.4);
+	background-color: #ffffffe2;
+	color: #4f4f4f !important;
 	font-family: 'montserrat-light', sans-serif;
 	font-size: 1.5rem;
 	line-height: 2;
@@ -2885,7 +2893,7 @@ html.no-csstransitions .home-content__main {
 .contact-content h3 {
 	margin-top: 0;
 	margin-bottom: 6.6rem;
-	color: #ffffff;
+	color: #4f4f4f;
 }
 
 .contact-content h5 {
@@ -2903,8 +2911,8 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea,
 .contact-content select {
 	margin-bottom: 0.9rem;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-	color: rgba(255, 255, 255, 0.6);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+	color: rgba(0, 0, 0, 0.6);
 }
 
 .contact-content input[type='email']:focus,
@@ -2917,7 +2925,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
 	border-bottom: 1px solid #00b0ff;
-	color: #ffffff;
+	color: #4f4f4f;
 }
 
 .contact-content button,
@@ -3131,13 +3139,13 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
 	.contact-content {
-		max-width: 900px;
+		max-width: 650px;
 	}
 }
 
 @media only screen and (max-width: 1000px) {
 	.contact-content {
-		max-width: 700px;
+		width: 100%;
 	}
 	.contact-primary,
 	.contact-secondary {
