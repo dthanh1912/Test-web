@@ -3245,18 +3245,20 @@ footer .row {
 
 .footer-logo {
 	display: block;
-	width: 85px;
-	height: 28px;
+	width: 150px;
 	margin: -0.6rem 0 3.6rem 0;
 	padding: 0;
 	border: none;
 	outline: 0;
-	background: url('../images/logo-footer.png') no-repeat center;
 	background-size: 85px 28px;
 	color: transparent;
 	font: 0/0 a;
 	text-shadow: none;
 	transition: all 0.3s ease-in-out;
+}
+.footer-right .footer-logo {
+	width: 50%;
+	float: right;
 }
 
 .footer-subscribe .subscribe-form {
@@ -3417,6 +3419,9 @@ footer .row {
 }
 
 @media only screen and (max-width: 600px) {
+	.footer-right .footer-logo {
+		float: none;
+	}
 	.footer-main .left {
 		padding-right: 10px;
 	}
