@@ -3376,6 +3376,11 @@ footer a:active {
 .footer-bottom .copyright span:last-child::after {
   display: none;
 }
+.footer-bottom img {
+  width: 200px;
+  margin-top: -2rem;
+  margin-bottom: 0.3rem;
+}
 
 /* -------------------------------------------------------------------
  * ## go to top
@@ -3429,6 +3434,9 @@ footer a:active {
   .footer-right img {
     width: 30%;
   }
+  .footer-bottom img {
+    width: 25%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
@@ -3450,6 +3458,10 @@ footer a:active {
     width: 40%;
     margin: -0.6rem auto 2rem;
   }
+  .footer-bottom img {
+    width: 30%;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
